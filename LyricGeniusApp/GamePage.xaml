@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LyricGeniusApp.GamePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DarkGray">
+            <Label Text="You are now ready to PLAY!"
+                   FontSize="Medium"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            
+            <Button x:Name="EnterGame" Text="Play Lyric Genius" 
+               FontSize="Medium"
+                    HorizontalOptions="Center"
+                Clicked="Play_Clicked"/>
+
+            <Button x:Name="SeeScore" Text="Look at score" 
+               FontSize="Medium"
+                    HorizontalOptions="Center"
+                Clicked="ViewScore_Clicked"/>
+
+            <Button x:Name="LogOut" Text="LogOut" 
+               FontSize="Medium"
+                Clicked="LogOut_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

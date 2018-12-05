@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LyricGeniusApp.Hard">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout   BackgroundColor="DarkGray" >
+
+
+                <Label Text="Welcome to Lyric Genius Level - Easy "
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   
+                   />
+
+
+                <Label Text=" (Q1)So you think you can _____ me and spit in my eye  " FontSize="Medium" HorizontalOptions="Center" ></Label>
+                <Entry x:Name="Answer1" Placeholder="Blank"
+             FontSize="Medium"
+             HorizontalOptions="Center"/>
+                <Button x:Name="CheckAnswer1" FontSize="Medium" Text="Enter"  Clicked="Q1_Clicked"></Button>
+
+
+                <Label Text=" (Q2)Theres nothing that a ____ men or more could ever do" FontSize="Medium" HorizontalOptions="Center" ></Label>
+                <Entry x:Name="Answer2" Placeholder="Blank"
+             FontSize="Medium"
+               HorizontalOptions="Center"/>
+                <Button x:Name="CheckAnswer2" FontSize="Medium" Text="Enter"  Clicked="Q2_Clicked"></Button>
+
+
+
+                <Label Text=" (Q3) When the night has come and the land is ____" FontSize="Medium" HorizontalOptions="Center" ></Label>
+                <Entry x:Name="Answer3" Placeholder="Blank"
+             FontSize="Medium"
+               HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="CheckAnswer3" FontSize="Medium" Text="Enter"  Clicked="Q3_Clicked"></Button>
+
+
+
+                <Label Text=" (Q4) Cause it's a bitter sweet _____ this life  " FontSize="Medium" HorizontalOptions="Center" ></Label>
+                <Entry x:Name="Answer4" Placeholder="Blank"
+             FontSize="Medium"
+               HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="CheckAnswer4" FontSize="Medium" Text="Enter"  Clicked="Q4_Clicked"></Button>
+
+                <Label Text=" (Q5) Unless i stuck by yeah , your the ____- " FontSize="Medium" HorizontalOptions="Center" ></Label>
+                <Entry x:Name="Answer5" Placeholder="Blank"
+             FontSize="Medium"
+               HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="CheckAnswer5" FontSize="Medium" Text="Enter"  Clicked="Q5_Clicked"></Button>
+                <Label Text="" x:Name="LblMessage" FontSize="Medium"></Label>
+
+                <Label Text=""  x:Name="Score" FontSize="Medium"></Label>
+
+                <Button x:Name="FinishGame" FontSize="Medium" Text="Finish"  Clicked="finish_Clicked"></Button>
+                <Label Text=""  x:Name="FinalScore" FontSize="Medium"></Label>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

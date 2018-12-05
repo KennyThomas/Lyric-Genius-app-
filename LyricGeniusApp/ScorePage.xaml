@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LyricGeniusApp.ScorePage">
+    <ContentPage.Content>
+        <StackLayout     BackgroundColor="DarkGray" >
+
+
+            <Label Text="" FontSize="Medium" x:Name="EasyScores"></Label>
+            <Label Text="" FontSize="Medium" x:Name="MediumScores"></Label>
+            <Label Text="" FontSize="Medium" x:Name="HardScores"></Label>
+
+
+
+
+
+
+            <Button x:Name="BackPage" FontSize="Medium" Text="Go back to selection"  Clicked="selection_Clicked"></Button>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
